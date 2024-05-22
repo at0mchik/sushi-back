@@ -12,6 +12,7 @@ import sushiBack.Service.OrderService;
 @RestController
 @RequestMapping("/order")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class OrderController {
     private final OrderService orderService;
 
